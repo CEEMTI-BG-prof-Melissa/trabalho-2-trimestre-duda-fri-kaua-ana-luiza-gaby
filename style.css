@@ -48,7 +48,6 @@
             background-color:#d9c9be;
             text-align:justify;
             word-wrap: break-word;
-            border: 2px solid black;
             
         }
         
@@ -114,7 +113,7 @@
             height: auto;
             margin-right: 7px;
             vertical-align:middle;            
-            border: 2px solid black;
+
 
 
         }
@@ -128,7 +127,6 @@
             white-space: pre-line;
             line-height: 1.6;
             font-family: 'Arial', sans-serif;             
-            border:2px solid black;
 
         }
 
