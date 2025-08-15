@@ -52,7 +52,7 @@
             text-align:justify;
             word-wrap: break-word;
             box-sizing: border-box;
-            margin: 0;
+            margin: 3px;
             overflow: hidden;
 
         }
