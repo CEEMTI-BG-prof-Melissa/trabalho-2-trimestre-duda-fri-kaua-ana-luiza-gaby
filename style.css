@@ -3,8 +3,11 @@
             padding: 0;
             margin: 0;
         }
-
-        body{
+        html, body {
+            height: auto;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
             background-color:#804c22   ;
             align-items: center;
             text-align: center;
@@ -42,13 +45,16 @@
         }
         
         .div3{
-            display:inline-block;
+            display:block;
             width: 100%;
-            height: 20%;
+            height:20%;
             background-color:#d9c9be;
             text-align:justify;
             word-wrap: break-word;
-            
+            box-sizing: border-box;
+            margin: 0;
+            overflow: hidden;
+
         }
         
         .div4{
@@ -63,7 +69,10 @@
         
         .div1:hover {
         background-color: #804c22;
-        transform: scale(1.05);
+        transform: scale(1.1);
+        border: solid white 2px;
+        border-radius: 5px;
+
         }
         
         .div6 p{
@@ -110,26 +119,57 @@
         .div3 img {
             display:inline-block;
             width: 45%;
-            height: auto;
+            height: 100%;
             margin-right: 7px;
-            vertical-align:middle;            
-
+            vertical-align:middle;
+            box-sizing: border-box;
 
 
         }
         
         .div3 p{
             display: inline-block;
-            font-size: 15px;
+            font-size: 20px;
             font-weight: bold;
             margin:auto;
             vertical-align:middle;
             white-space: pre-line;
             line-height: 1.6;
             font-family: 'Arial', sans-serif;             
+            box-sizing: border-box;
+        }
+        .div7 {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            margin:auto;
+            vertical-align:middle;
+            white-space: pre-line;
+            line-height: 1.6;
+            font-family: 'Arial', sans-serif;
+            width: 45%;
+            height: 100%;
 
         }
+        form {
+        font-family: 'Segoe UI', sans-serif;
+        
+        }
+        form h2, form h3 {
+        color:black;
+        margin-bottom: 10px;
+        font-family:'Poppins', sans-serif;
+        font-weight: 600;
+        
 
+        }
+        img {
+            width: 400px;
+            height: 300px;
+            display: block;
+            margin: 10px;
+
+        }
 
 
 
