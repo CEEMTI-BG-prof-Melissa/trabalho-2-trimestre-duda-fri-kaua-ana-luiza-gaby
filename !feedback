@@ -1,1 +1,12 @@
 
+Idade: <input type="number" id="number" name="number" value ="number"> → o atributo value="number" não faz sentido; deve ser removido.
+
+Data de nascimento: <input type="date" ... max= "2025-30-11"> → formato incorreto. O correto é "2025-11-30".
+
+Radio buttons (Sim/Não): os <label> estão separados e sem for correto
+
+Textareas não têm id e name, e o required não funciona corretamente se houver espaços entre as tags <textarea> </textarea>.
+
+Muitos id e for duplicados (opcao1, opcao2, opcao3 repetidos). Cada id deve ser único.
+
+Alguns valores de value estão duplicados ou incorretos (value="opcao3").
